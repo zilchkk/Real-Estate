@@ -1,0 +1,39 @@
+.f-wrapper{
+    width: 100%;
+    padding: 2rem;
+}
+
+.f-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   width: 100%;
+}
+
+.f-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    gap: 0.6rem;
+}
+
+.secondarytext{
+    color: rgba(140 139 139);
+    font-size: 0.7rem;
+}
+
+.f-menu{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+
+}
+
+.f-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    
+}
