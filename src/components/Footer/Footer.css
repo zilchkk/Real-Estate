@@ -1,0 +1,101 @@
+.f-wrapper{
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+    padding: 2rem;
+}
+
+.f-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   width: 100%;
+}
+
+.f-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    gap: 0.6rem;
+}
+
+.secondarytext{
+    color: rgba(140 139 139);
+    font-size: 0.7rem;
+}
+
+.f-menu{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+
+}
+
+.f-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    
+}
+
+.MainsText{
+    color: rgb(5, 5, 132);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+
+.secondText{
+    color: rgb(206, 206, 206);
+    font-size: 1rem;
+}
+
+.n-center{
+    gap: .5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Email-input{
+    background-color: white;
+    border: 3px solid rgba(120, 120, 120, 0.374);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding: 0.5rem;
+   
+}
+
+.Email-input> input{
+    border: none;
+    outline: none;
+}
+
+
+.oranges-circle{
+    height: 4rem;
+    width: 4rem;
+    background: orange;
+    border-radius: 100px;
+    position: absolute;
+    top: 15%;
+    right: 79%;
+    z-index: -1;
+}
+
+.h1{
+    position: relative;
+    z-index: 9999;
+}
+
+input::placeholder{
+    color: rgb(5, 5, 124);
+    font-weight: 600;
+}
+
+input{
+    caret-color: orange;
+}
